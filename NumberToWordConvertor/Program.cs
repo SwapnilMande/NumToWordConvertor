@@ -10,7 +10,7 @@ namespace NumberToWordConvertor
         static long temp;
         static long index = 0;
         static long[] buffer = new long[10];
-        static StringBuilder sb = new StringBuilder();
+        static StringBuilder sb = new StringBuilder(); 
 
         static void ones(long value)//to print numbers in ones
         {
