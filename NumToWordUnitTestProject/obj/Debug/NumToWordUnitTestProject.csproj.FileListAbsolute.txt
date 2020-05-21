@@ -1,0 +1,17 @@
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\bin\Debug\NumToWordUnitTestProject.dll
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\bin\Debug\NumToWordUnitTestProject.pdb
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\bin\Debug\NumberToWordConvertor.exe
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\bin\Debug\NumberToWordConvertor.pdb
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\bin\Debug\NumberToWordConvertor.exe.config
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\obj\Debug\NumToWordUnitTestProject.csprojAssemblyReference.cache
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\obj\Debug\NumToWordUnitTestProject.csproj.CoreCompileInputs.cache
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\obj\Debug\NumToWordUnitTestProject.csproj.CopyComplete
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\obj\Debug\NumToWordUnitTestProject.dll
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumToWordUnitTestProject\obj\Debug\NumToWordUnitTestProject.pdb

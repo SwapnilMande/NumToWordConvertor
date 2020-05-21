@@ -1,0 +1,7 @@
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumberToWordConvertor\bin\Debug\NumberToWordConvertor.exe.config
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumberToWordConvertor\bin\Debug\NumberToWordConvertor.exe
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumberToWordConvertor\bin\Debug\NumberToWordConvertor.pdb
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumberToWordConvertor\obj\Debug\NumberToWordConvertor.csproj.CoreCompileInputs.cache
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumberToWordConvertor\obj\Debug\NumberToWordConvertor.exe
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumberToWordConvertor\obj\Debug\NumberToWordConvertor.pdb
+C:\Users\Swapnil\Source\Repos\NumberToWordConvertor\NumberToWordConvertor\obj\Debug\NumberToWordConvertor.csprojAssemblyReference.cache
