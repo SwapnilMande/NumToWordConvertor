@@ -10,7 +10,7 @@ namespace NumberToWordConvertor
         static long temp;
         static long index = 0;
         static long[] buffer = new long[10];
-        static StringBuilder sb = new StringBuilder(); 
+        static StringBuilder sb = new StringBuilder();
 
         static void ones(long value)//to print numbers in ones
         {
@@ -67,6 +67,7 @@ namespace NumberToWordConvertor
 
         static void Main(string[] args)
         {
+
             Console.WriteLine("Enter a number to convert it into words");
             input = Convert.ToInt64(Console.ReadLine());//input from the user
             Program program = new Program();
@@ -76,80 +77,102 @@ namespace NumberToWordConvertor
 
         public string ProcessNumberforConversion(long input)
         {
-            do
+            try
             {
-                buffer[index] = input % 10;
-                input /= 10;
-                index++;
-            } while (input != 0);
-            string finalstring = NumberToWordGenerator();
-            Console.WriteLine(finalstring);
-            return finalstring;
+                do
+                {
+                    buffer[index] = input % 10;
+                    input /= 10;
+                    index++;
+                } while (input != 0);
+                string finalstring = NumberToWordGenerator();
+                Console.WriteLine(finalstring);
+                return finalstring;
+            }
+            catch (ArithmeticException ex)
+            {
+                throw ex;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
         private static string NumberToWordGenerator()
         {
-
-            for (temp = index - 1; temp >= 0; temp--)
+            try
             {
-                if (temp == 7)//check for the values in crore.
+                for (temp = index - 1; temp >= 0; temp--)
                 {
-                    ones(buffer[temp]);
-                    sb.Append(" Crore");
-                }
-                if (temp == 5)//check for the values in lakhs
-                {
-                    if (buffer[temp + 1] == 1)
+                    if (temp == 7)//check for the values in crore.
                     {
-                        teens(buffer[temp]);
-                        sb.Append(" Lakhs");
-                    }
-                    else
-                    {
-                        tens(buffer[temp + 1]);
                         ones(buffer[temp]);
-                        if (!((buffer[temp + 1] == 0) && (buffer[temp] == 0)))
+                        sb.Append(" Crore");
+                    }
+                    if (temp == 5)//check for the values in lakhs
+                    {
+                        if (buffer[temp + 1] == 1)
                         {
-                            sb.Append("Lakhs");
+                            teens(buffer[temp]);
+                            sb.Append(" Lakhs");
+                        }
+                        else
+                        {
+                            tens(buffer[temp + 1]);
+                            ones(buffer[temp]);
+                            if (!((buffer[temp + 1] == 0) && (buffer[temp] == 0)))
+                            {
+                                sb.Append(" Lakhs");
+                            }
                         }
                     }
-                }
-                else if (temp == 3)//check for the numbers in thousands
-                {
-                    if (buffer[temp + 1] == 1)
+                    else if (temp == 3)//check for the numbers in thousands
                     {
-                        teens(buffer[temp]);
-                        sb.Append(" Thousand");
-                    }
-                    else
-                    {
-                        tens(buffer[temp + 1]);
-                        ones(buffer[temp]);
-                        if (!((buffer[temp + 1] == 0) && (buffer[temp] == 0)))
+                        if (buffer[temp + 1] == 1)
                         {
+                            teens(buffer[temp]);
                             sb.Append(" Thousand");
                         }
+                        else
+                        {
+                            tens(buffer[temp + 1]);
+                            ones(buffer[temp]);
+                            if (!((buffer[temp + 1] == 0) && (buffer[temp] == 0)))
+                            {
+                                sb.Append(" Thousand");
+                            }
+                        }
                     }
-                }
-                else if (temp == 2)//check for the numbers in hundreds
-                {
-                    if (buffer[temp] != 0)
+                    else if (temp == 2)//check for the numbers in hundreds
                     {
-                        ones(buffer[temp]);
-                        sb.Append(" Hundred");
+                        if (buffer[temp] != 0)
+                        {
+                            ones(buffer[temp]);
+                            sb.Append(" Hundred");
+                        }
                     }
-                }
-                else if (temp == 0)//chcek for the numbers in tens and ones
-                {
-                    if (buffer[temp + 1] == 1)
-                        teens(buffer[temp]);
-                    else
+                    else if (temp == 0)//chcek for the numbers in tens and ones
                     {
-                        tens(buffer[temp + 1]);
-                        ones(buffer[temp]);
+                        if (buffer[temp + 1] == 1)
+                            teens(buffer[temp]);
+                        else
+                        {
+                            tens(buffer[temp + 1]);
+                            ones(buffer[temp]);
+                        }
                     }
                 }
+                return sb.ToString();
             }
-            return sb.ToString();
+            catch (ArithmeticException ex) {
+                throw ex;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }
